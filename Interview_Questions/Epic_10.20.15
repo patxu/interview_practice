@@ -1,0 +1,25 @@
+1. put a space halfway between a word
+
+   input: (string) i can't talk about it.
+   output: (string) i ca n't ta lk about it.
+
+2. find the primes that add up to a given even number greater than 2
+
+   input: (int) 8
+   output: (string) 3 5
+
+3. find the number of all possible numbers of a given length where each 
+   subsequent digit is larger than the previous (e.g. 14569)
+
+   input: (int) 1
+   output: (int) 9
+
+4. print the sequence of transforms of one word another (i.e. is an anagram)   by transpositions, if possible
+
+   input: (string) MUG GUM
+  
+   output: (string)
+     MUG
+     MGU
+     GMU
+     GUM

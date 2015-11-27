@@ -1,0 +1,25 @@
+search for largest island
+
+"map"
+0 1 2 0 0 1
+0 2 3 0 0 0
+1 0 0 1 0 0
+0 0 1 2 0 6
+
+given:
+input is a 2d array
+an island is a non-zero value
+
+output:
+size of largest island
+
+had to ask for:
+values in array >= 0
+
+approach:
+driver looping through all values in array
+recursive function which searches starting a current coordinates
+use dictionary to keep track of which locations have already been discovered
+
+
+runtime

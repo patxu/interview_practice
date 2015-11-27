@@ -1,0 +1,46 @@
+3 rounds back-to-back
+
+1.
+design the game "astroids"
+OOP
+define logic for main while loop
+object inheritance
+
+2.
+connect 4 string decoding
+
+_ space
+r red
+b black
+
+input: 9_4rbrb ...
+output: 6x7 matrix of characters
+
+edge cases: don't accept 1r, 0r, 3r4r, board overfilled/underfilled
+
+3.
+jquery parsing
+
+input: query $(".a .b>.c")
+  " " -> descendent
+  ">" -> direct child
+output: list of nodes
+
+b
+ \
+  a
+   \
+    b
+   / \
+ a    c
+ |     \
+ c      d
+ |
+ d
+
+class node:
+  className
+  children
+
+runtime analysis: hard, j^n?
+main and recursive helper

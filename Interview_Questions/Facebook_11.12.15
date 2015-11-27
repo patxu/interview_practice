@@ -1,0 +1,6 @@
+given string "bedbathandbeyond" and dictionary {"bed", "bath", "and",
+"beyond"}, can spaces be inserted into the string so we have a sentence 
+comprised of words in our dictionary?
+
+solution uses recursion
+runtime analysis was difficult
